@@ -1,0 +1,19 @@
+{
+    "id": "dTfqDWqYgMZHG94gnwfF2Un2Ho4lT4kepoiqQ-VGTeo",
+    "txs": [
+        {
+            "to": "0x9AD2Bc9435D41Cc6f55a681552071C2EabDB2b31",
+            "value": "2",
+            "data": "0x",
+            "operation": 0
+        }
+    ]
+}
+
+yarn hardhat --network rinkeby addProposal --module $MODULE_ADDRESS --proposal-file bridge_proposal_5.json
+yarn run v1.22.10
+warning ../../package.json: No license field
+$ /Users/wjm/repos/dao-module/node_modules/.bin/hardhat --network rinkeby addProposal --module 0xD0A9A4cd312E046642341b70221358095C9c0cCE --proposal-file bridge_proposal_5.json
+(node:8953) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Transaction: 0xdedf4fa091daf4714a6428cbe3f3d283be682971be9bfecb0092332a274975e5
